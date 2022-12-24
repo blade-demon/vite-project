@@ -1,18 +1,11 @@
-<<<<<<< HEAD
 import { defineConfig } from "vite";
 import vue from "@vitejs/plugin-vue";
-=======
-import { defineConfig } from 'vite';
-import Path from 'path';
-import vue from '@vitejs/plugin-vue';
->>>>>>> 8c8989e (feat: add config file)
 
 // https://vitejs.dev/config/
 export default defineConfig({
   plugins: [vue()],
   resolve: {
     alias: {
-<<<<<<< HEAD
       "@": resolve(__dirname, "./src"),
     },
   },
@@ -36,9 +29,4 @@ export default defineConfig({
     // 启用/禁用gzip 压缩大小报告
     reportCompressedSize: false,
   },
-=======
-      '@': Path.resolve(__dirname, './src'),
-    },
-  },
->>>>>>> 8c8989e (feat: add config file)
 });
